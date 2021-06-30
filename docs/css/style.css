@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace;
+    font-size: 2em;
+    color: #FFF;
+    font-size: 1.2em;
+    overflow: hidden;
+    background-color: grey;
+}
+
+game,monkey, baboon, startscreen, endscreen, gamescreen {
+    position : absolute;
+    display: block;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+ 
+
+
+startscreen div, endscreen div {
+    font-size: 3em;
+    padding-top: 26vh;
+    width: 100vw;
+    text-align: center;
+}
+
+startscreen button, endscreen button {
+    font-family: 'VT323', monospace;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-left: calc(50vw - 100px);
+    background-color: green;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+}
+
+baboon {
+    background-image: url(../images/baboon.png);
+    width:50px; height: 70px;
+    cursor: pointer;
+}
+
+monkey {
+    background-image: url(../images/monkey.png);
+    width:30px; height: 50px;
+}
+
+.Transformed {
+    background-image: url(../images/monkey.png);
+}
+
+/*bubble {
+    background-image: url(../images/bubble.png);
+    width:55px; height: 55px;
+    cursor: pointer;
+}*/
+
+game {
+	background-image: url(../images/Jungle.jpg);
+    width:100%; height: 100%;
+    background-size: cover;
+}
+
+
+score{
+    z-index: 999;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: left;
+    color: white;
+   }
+
+timer{
+    z-index: 999;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+    color: white;
+}
+    
+   
+
